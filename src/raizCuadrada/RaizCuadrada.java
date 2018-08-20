@@ -25,5 +25,12 @@ public class RaizCuadrada {
     
     Scanner entrada = new Scanner(System.in);
     
+    // Creo el método ejecutaPrograma
+    public ejecutaPrograma(){
+        
+        introduceNumero();
+        
+        imprimeResultado();
+    }
     
 }
