@@ -15,6 +15,9 @@ import java.util.*;
  */
 public class positivoNegativo {
     
+    // Creo variable entera numero
+    private int numero;
+    
     
     
 }
