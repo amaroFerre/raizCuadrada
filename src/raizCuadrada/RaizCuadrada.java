@@ -15,5 +15,15 @@ import java.util.*;
 public class RaizCuadrada {
     
     
+   // Creo variable de tipo double
+    
+    private double numero;
+    
+    private double resultado;
+    
+    // Creo el objeto entrada de la Clase Scanner
+    
+    Scanner entrada = new Scanner(System.in);
+    
     
 }
