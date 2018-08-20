@@ -26,11 +26,30 @@ public class RaizCuadrada {
     Scanner entrada = new Scanner(System.in);
     
     // Creo el método ejecutaPrograma
-    public ejecutaPrograma(){
+    public void ejecutaPrograma(){
         
-        introduceNumero();
+        
         
         imprimeResultado();
     }
+    
+    public void imprimeResultado(){
+        
+        System.out.println("Introduce un número positivo:");
+        
+        numero = entrada.nextDouble();
+        
+       if (numero >= 0){
+           
+           resultado = (Math.sqrt(numero));
+           
+           System.out.println("La raíz cuadrada de: " + numero + " es " + resultado);
+       }else
+           
+            System.out.println("El número " + numero + " no es un número positivo");
+        
+        
+    }
+    
     
 }
