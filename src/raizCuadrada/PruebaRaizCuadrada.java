@@ -13,6 +13,10 @@ public class PruebaRaizCuadrada {
     
     public static void main(String[] args) {
         
+        // Creo un objeto de la clase PruebaRaizCuadrada
+        
+        PruebaRaizCuadrada raiz = new PruebaRaizCuadrada();
+        
         
     }
     
