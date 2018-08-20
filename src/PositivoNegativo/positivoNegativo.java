@@ -5,10 +5,16 @@
  */
 package PositivoNegativo;
 
+//Importo la clase java.util.* para poder utilizar la clase Scanner
+
+import java.util.*;
+
 /**
  *
  * @author Amarico
  */
 public class positivoNegativo {
+    
+    
     
 }
